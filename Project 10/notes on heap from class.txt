@@ -1,0 +1,55 @@
+// full binary tree 
+  // either has 0 or 2 children
+  // never has just one child
+
+// complete binary tree 
+  // full to the last row (bottom row) 
+  // fills in from the left to the right
+  
+// max heap
+  // no left or right consideration
+  // the parent has to be bigger than the children
+  
+// use simple subtraction and addition to figure out parent or children
+  // to find parent ( int current -1 / 2 )
+  // to find child ( int current * 2 + 1) for left child ( int current * 2 + 2 ) for right
+  
+// for adding values
+  // add value at size
+  
+  // buble the value to the correct spot in heap tree 
+    // want the parent to be bigger than the children
+    
+    // if child is bigger than parent then swap those 2 and continue up the tree
+    
+    // recurse and try again
+    
+    // protect from going off top of heap and infinite recursionm, off bottom of array ( -1 )
+
+// for removing
+  // always goona remove from 0 index
+  
+  // assign temp to the current value at index 0
+  
+  // always move the value with the priority to the 0 index
+
+  // take value at size - 1
+
+  // assign to index 0
+
+  // trickle down to restructre tree
+
+// make sure to protect against going off bottom of array (or top of heap) in trickle down and bubble up 
+
+// when trickles down
+  // no temp just use parent and child variables from compare
+
+  // test for if children are there, parent will always be there
+  
+  // set left child data and right child to variables to use in comparePriority functions
+  
+// bubble up
+  // check if parent has children
+  
+  // set avaliable children to variables to use in comparePriorities
+  
